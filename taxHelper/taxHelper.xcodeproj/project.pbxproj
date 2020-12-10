@@ -13,6 +13,10 @@
 		7D8676B7257F28EA00ECBB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8676B5257F28EA00ECBB05 /* Main.storyboard */; };
 		7D8676B9257F28F700ECBB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8676B8257F28F700ECBB05 /* Assets.xcassets */; };
 		7D8676BC257F28F700ECBB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8676BA257F28F700ECBB05 /* LaunchScreen.storyboard */; };
+		7DC504752582899E00AB03D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DC504742582899E00AB03D2 /* GoogleService-Info.plist */; };
+		7DF41F602581CD7600CB08FC /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF41F5F2581CD7600CB08FC /* SignupViewController.swift */; };
+		7DF41F642581CDC700CB08FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF41F632581CDC700CB08FC /* LoginViewController.swift */; };
+		7DF41F682581CDF000CB08FC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF41F672581CDF000CB08FC /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		7D8676B8257F28F700ECBB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D8676BB257F28F700ECBB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D8676BD257F28F700ECBB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DC504742582899E00AB03D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7DF41F5F2581CD7600CB08FC /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		7DF41F632581CDC700CB08FC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7DF41F672581CDF000CB08FC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,25 @@
 			children = (
 				7D8676AF257F28EA00ECBB05 /* AppDelegate.swift */,
 				7D8676B1257F28EA00ECBB05 /* SceneDelegate.swift */,
-				7D8676B3257F28EA00ECBB05 /* ViewController.swift */,
+				7DF41F622581CDA600CB08FC /* ViewControllers */,
 				7D8676B5257F28EA00ECBB05 /* Main.storyboard */,
 				7D8676B8257F28F700ECBB05 /* Assets.xcassets */,
 				7D8676BA257F28F700ECBB05 /* LaunchScreen.storyboard */,
 				7D8676BD257F28F700ECBB05 /* Info.plist */,
+				7DC504742582899E00AB03D2 /* GoogleService-Info.plist */,
 			);
 			path = taxHelper;
+			sourceTree = "<group>";
+		};
+		7DF41F622581CDA600CB08FC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D8676B3257F28EA00ECBB05 /* ViewController.swift */,
+				7DF41F5F2581CD7600CB08FC /* SignupViewController.swift */,
+				7DF41F632581CDC700CB08FC /* LoginViewController.swift */,
+				7DF41F672581CDF000CB08FC /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D8676BC257F28F700ECBB05 /* LaunchScreen.storyboard in Resources */,
+				7DC504752582899E00AB03D2 /* GoogleService-Info.plist in Resources */,
 				7D8676B9257F28F700ECBB05 /* Assets.xcassets in Resources */,
 				7D8676B7257F28EA00ECBB05 /* Main.storyboard in Resources */,
 			);
@@ -139,7 +160,10 @@
 			files = (
 				7D8676B4257F28EA00ECBB05 /* ViewController.swift in Sources */,
 				7D8676B0257F28EA00ECBB05 /* AppDelegate.swift in Sources */,
+				7DF41F602581CD7600CB08FC /* SignupViewController.swift in Sources */,
+				7DF41F642581CDC700CB08FC /* LoginViewController.swift in Sources */,
 				7D8676B2257F28EA00ECBB05 /* SceneDelegate.swift in Sources */,
+				7DF41F682581CDF000CB08FC /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
